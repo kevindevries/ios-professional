@@ -27,6 +27,7 @@
 		ACDD9B3D2909A44600730F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDD9B3C2909A44600730F10 /* Assets.xcassets */; };
 		ACDD9B402909A44600730F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDD9B3E2909A44600730F10 /* LaunchScreen.storyboard */; };
 		ACDD9B4A2909A85500730F10 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD9B492909A85500730F10 /* LoginView.swift */; };
+		ACE5540B29801EC300A78BB1 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5540A29801EC300A78BB1 /* ShakeyBellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		ACDD9B3F2909A44600730F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACDD9B412909A44600730F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACDD9B492909A85500730F10 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ACE5540A29801EC300A78BB1 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		ACDD9B322909A44400730F10 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				ACE5540929801EA600A78BB1 /* Components */,
 				ACDD9B332909A44400730F10 /* AppDelegate.swift */,
 				AC98E49B2975A0A8001713FA /* MainViewController.swift */,
 				ACDD9B482909A81500730F10 /* Login */,
@@ -190,6 +193,14 @@
 				AC5A3C6A29199FC8009D2BD0 /* DummyViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		ACE5540929801EA600A78BB1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5540A29801EC300A78BB1 /* ShakeyBellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 				AC5A3C6B29199FC8009D2BD0 /* DummyViewController.swift in Sources */,
 				ACBF924F297F093F001B2C12 /* NSNotificationName.swift in Sources */,
 				ACDD9B382909A44400730F10 /* LoginViewController.swift in Sources */,
+				ACE5540B29801EC300A78BB1 /* ShakeyBellView.swift in Sources */,
 				AC8DF6E1297ACDC3004B8E43 /* AccountSummaryCell.swift in Sources */,
 				AC5A3C6929199087009D2BD0 /* OnboardingViewController.swift in Sources */,
 				AC98E49C2975A0A8001713FA /* MainViewController.swift in Sources */,
