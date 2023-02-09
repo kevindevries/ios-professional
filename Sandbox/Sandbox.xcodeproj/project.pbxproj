@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC1FD8522988278C00E57E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD8512988278C00E57E4A /* AppDelegate.swift */; };
-		AC1FD8562988278C00E57E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD8552988278C00E57E4A /* ViewController.swift */; };
-		AC1FD85B2988278D00E57E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1FD85A2988278D00E57E4A /* Assets.xcassets */; };
-		AC1FD85E2988278D00E57E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1FD85C2988278D00E57E4A /* LaunchScreen.storyboard */; };
-		AC1FD867298829CB00E57E4A /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FD866298829CB00E57E4A /* PasswordTextField.swift */; };
-		AC26EE142995681700207927 /* PasswordCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26EE132995681700207927 /* PasswordCriteria.swift */; };
-		ACFABEC12993E381000F1C3A /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFABEC02993E381000F1C3A /* PasswordCriteriaView.swift */; };
-		ACFABEC32993FA00000F1C3A /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFABEC22993FA00000F1C3A /* PasswordStatusView.swift */; };
+		AC26EE002995564400207927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26EDFF2995564400207927 /* AppDelegate.swift */; };
+		AC26EE022995564400207927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26EE012995564400207927 /* SceneDelegate.swift */; };
+		AC26EE042995564400207927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26EE032995564400207927 /* ViewController.swift */; };
+		AC26EE072995564400207927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26EE052995564400207927 /* Main.storyboard */; };
+		AC26EE092995564700207927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC26EE082995564700207927 /* Assets.xcassets */; };
+		AC26EE0C2995564700207927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26EE0A2995564700207927 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC1FD84E2988278C00E57E4A /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC1FD8512988278C00E57E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC1FD8552988278C00E57E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC1FD85A2988278D00E57E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC1FD85D2988278D00E57E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC1FD85F2988278D00E57E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC1FD866298829CB00E57E4A /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
-		AC26EE132995681700207927 /* PasswordCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteria.swift; sourceTree = "<group>"; };
-		ACFABEC02993E381000F1C3A /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
-		ACFABEC22993FA00000F1C3A /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
+		AC26EDFC2995564400207927 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26EDFF2995564400207927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC26EE012995564400207927 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC26EE032995564400207927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC26EE062995564400207927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC26EE082995564700207927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC26EE0B2995564700207927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC26EE0D2995564700207927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC1FD84B2988278C00E57E4A /* Frameworks */ = {
+		AC26EDF92995564400207927 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC1FD8452988278B00E57E4A = {
+		AC26EDF32995564400207927 = {
 			isa = PBXGroup;
 			children = (
-				AC1FD8502988278C00E57E4A /* Password */,
-				AC1FD84F2988278C00E57E4A /* Products */,
+				AC26EDFE2995564400207927 /* Sandbox */,
+				AC26EDFD2995564400207927 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC1FD84F2988278C00E57E4A /* Products */ = {
+		AC26EDFD2995564400207927 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC1FD84E2988278C00E57E4A /* Password.app */,
+				AC26EDFC2995564400207927 /* Sandbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC1FD8502988278C00E57E4A /* Password */ = {
+		AC26EDFE2995564400207927 /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				AC1FD8652988280800E57E4A /* Files */,
-				AC1FD8512988278C00E57E4A /* AppDelegate.swift */,
-				AC1FD8552988278C00E57E4A /* ViewController.swift */,
-				AC1FD866298829CB00E57E4A /* PasswordTextField.swift */,
-				ACFABEBF2993E355000F1C3A /* PasswordStatusView */,
+				AC26EDFF2995564400207927 /* AppDelegate.swift */,
+				AC26EE012995564400207927 /* SceneDelegate.swift */,
+				AC26EE032995564400207927 /* ViewController.swift */,
+				AC26EE052995564400207927 /* Main.storyboard */,
+				AC26EE082995564700207927 /* Assets.xcassets */,
+				AC26EE0A2995564700207927 /* LaunchScreen.storyboard */,
+				AC26EE0D2995564700207927 /* Info.plist */,
 			);
-			path = Password;
-			sourceTree = "<group>";
-		};
-		AC1FD8652988280800E57E4A /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC1FD85A2988278D00E57E4A /* Assets.xcassets */,
-				AC1FD85C2988278D00E57E4A /* LaunchScreen.storyboard */,
-				AC1FD85F2988278D00E57E4A /* Info.plist */,
-			);
-			name = Files;
-			sourceTree = "<group>";
-		};
-		ACFABEBF2993E355000F1C3A /* PasswordStatusView */ = {
-			isa = PBXGroup;
-			children = (
-				ACFABEC02993E381000F1C3A /* PasswordCriteriaView.swift */,
-				ACFABEC22993FA00000F1C3A /* PasswordStatusView.swift */,
-				AC26EE132995681700207927 /* PasswordCriteria.swift */,
-			);
-			name = PasswordStatusView;
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC1FD84D2988278C00E57E4A /* Password */ = {
+		AC26EDFB2995564400207927 /* Sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC1FD8622988278D00E57E4A /* Build configuration list for PBXNativeTarget "Password" */;
+			buildConfigurationList = AC26EE102995564700207927 /* Build configuration list for PBXNativeTarget "Sandbox" */;
 			buildPhases = (
-				AC1FD84A2988278C00E57E4A /* Sources */,
-				AC1FD84B2988278C00E57E4A /* Frameworks */,
-				AC1FD84C2988278C00E57E4A /* Resources */,
+				AC26EDF82995564400207927 /* Sources */,
+				AC26EDF92995564400207927 /* Frameworks */,
+				AC26EDFA2995564400207927 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Password;
-			productName = Password;
-			productReference = AC1FD84E2988278C00E57E4A /* Password.app */;
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = AC26EDFC2995564400207927 /* Sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC1FD8462988278B00E57E4A /* Project object */ = {
+		AC26EDF42995564400207927 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					AC1FD84D2988278C00E57E4A = {
+					AC26EDFB2995564400207927 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = AC1FD8492988278B00E57E4A /* Build configuration list for PBXProject "Password" */;
+			buildConfigurationList = AC26EDF72995564400207927 /* Build configuration list for PBXProject "Sandbox" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,49 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AC1FD8452988278B00E57E4A;
-			productRefGroup = AC1FD84F2988278C00E57E4A /* Products */;
+			mainGroup = AC26EDF32995564400207927;
+			productRefGroup = AC26EDFD2995564400207927 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC1FD84D2988278C00E57E4A /* Password */,
+				AC26EDFB2995564400207927 /* Sandbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC1FD84C2988278C00E57E4A /* Resources */ = {
+		AC26EDFA2995564400207927 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1FD85E2988278D00E57E4A /* LaunchScreen.storyboard in Resources */,
-				AC1FD85B2988278D00E57E4A /* Assets.xcassets in Resources */,
+				AC26EE0C2995564700207927 /* LaunchScreen.storyboard in Resources */,
+				AC26EE092995564700207927 /* Assets.xcassets in Resources */,
+				AC26EE072995564400207927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC1FD84A2988278C00E57E4A /* Sources */ = {
+		AC26EDF82995564400207927 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1FD8562988278C00E57E4A /* ViewController.swift in Sources */,
-				AC26EE142995681700207927 /* PasswordCriteria.swift in Sources */,
-				AC1FD8522988278C00E57E4A /* AppDelegate.swift in Sources */,
-				ACFABEC12993E381000F1C3A /* PasswordCriteriaView.swift in Sources */,
-				ACFABEC32993FA00000F1C3A /* PasswordStatusView.swift in Sources */,
-				AC1FD867298829CB00E57E4A /* PasswordTextField.swift in Sources */,
+				AC26EE042995564400207927 /* ViewController.swift in Sources */,
+				AC26EE002995564400207927 /* AppDelegate.swift in Sources */,
+				AC26EE022995564400207927 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC1FD85C2988278D00E57E4A /* LaunchScreen.storyboard */ = {
+		AC26EE052995564400207927 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC1FD85D2988278D00E57E4A /* Base */,
+				AC26EE062995564400207927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC26EE0A2995564700207927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC26EE0B2995564700207927 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AC1FD8602988278D00E57E4A /* Debug */ = {
+		AC26EE0E2995564700207927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		AC1FD8612988278D00E57E4A /* Release */ = {
+		AC26EE0F2995564700207927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +280,7 @@
 			};
 			name = Release;
 		};
-		AC1FD8632988278D00E57E4A /* Debug */ = {
+		AC26EE112995564700207927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,10 +288,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Sandbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Password;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		AC1FD8642988278D00E57E4A /* Release */ = {
+		AC26EE122995564700207927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,10 +315,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Password/Info.plist;
+				INFOPLIST_FILE = Sandbox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Password;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC1FD8492988278B00E57E4A /* Build configuration list for PBXProject "Password" */ = {
+		AC26EDF72995564400207927 /* Build configuration list for PBXProject "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC1FD8602988278D00E57E4A /* Debug */,
-				AC1FD8612988278D00E57E4A /* Release */,
+				AC26EE0E2995564700207927 /* Debug */,
+				AC26EE0F2995564700207927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC1FD8622988278D00E57E4A /* Build configuration list for PBXNativeTarget "Password" */ = {
+		AC26EE102995564700207927 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC1FD8632988278D00E57E4A /* Debug */,
-				AC1FD8642988278D00E57E4A /* Release */,
+				AC26EE112995564700207927 /* Debug */,
+				AC26EE122995564700207927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC1FD8462988278B00E57E4A /* Project object */;
+	rootObject = AC26EDF42995564400207927 /* Project object */;
 }
